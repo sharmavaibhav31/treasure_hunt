@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prologue - The Time Traveler's Code</title>
+    <style>
+        /* CSS Styles */
+        body {
+            font-family: 'Georgia', serif;
+            background: linear-gradient(to bottom, #0f2027, #203a43, #2c5364);
+            color: #fff;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .prologue-container {
+            max-width: 800px;
+            margin: 50px auto;
+            text-align: center;
+            padding: 20px;
+            background: rgba(0, 0, 0, 0.8);
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 1.2rem;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 12px 24px;
+            background: #ff6600;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 1rem;
+            transition: transform 0.2s, background 0.3s;
+        }
+
+        .btn:hover {
+            background: #cc5200;
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+    <div class="prologue-container">
+        <h1>Prologue: The Time Traveler's Code</h1>
+        <p>
+            In the year 3024, humanity discovered the secrets of time travel. With great power came even greater danger.
+            The Time Machine, once a marvel of technology, has shattered into fragments across various epochs.
+            These fragments, holding the <strong>Code of Eternity</strong>, must be recovered to restore balance to the timeline.
+        </p>
+        <p>
+            As an agent of the <strong>Temporal Defense Force</strong>, your mission is clear: retrieve these fragments before they fall into the wrong hands.
+            Each fragment is guarded by challenges and riddles that only the sharpest minds can solve.
+        </p>
+        <p>
+            Your journey begins now. Are you ready to traverse the annals of history and piece together <strong>The Code of Eternity</strong>?
+        </p>
+        <a href="{% url 'task1' %}" class="btn">Proceed to Task 1</a>
+
+    </div>
+</body>
+</html>

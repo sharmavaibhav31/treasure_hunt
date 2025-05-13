@@ -1,0 +1,84 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to bottom, #3e5151, #decba4);
+    color: #000;
+    line-height: 1.6;
+}
+
+header {
+    text-align: center;
+    padding: 50px 20px;
+    background: rgba(0, 0, 0, 0.8);
+    color: #fff;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2em;
+}
+
+.task {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.task h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #4caf50;
+}
+
+.task p {
+    font-size: 1.1em;
+    margin-bottom: 20px;
+}
+
+.puzzle-image {
+    width: 300px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.response {
+    margin-top: 20px;
+}
+
+.response input {
+    padding: 10px;
+    font-size: 1em;
+    border: 2px solid #4caf50;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.response button {
+    background: #4caf50;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 1em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.response button:hover {
+    background: #3e8e41;
+}
+
+#feedback {
+    margin-top: 20px;
+    font-size: 1.2em;
+    font-weight: bold;
+}

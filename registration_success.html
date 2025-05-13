@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Successful</title>
+    <style>
+        /* CSS Styles */
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to right, #1e3c72, #2a5298);
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .success-container {
+            margin-top: 100px;
+        }
+
+        h1 {
+            font-size: 3rem;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 1.2rem;
+            margin-bottom: 20px;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #ff9900;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 1rem;
+            transition: background 0.3s;
+        }
+
+        .btn:hover {
+            background-color: #cc7a00;
+        }
+    </style>
+</head>
+<body>
+    <div class="success-container">
+        <h1>🎉 Registration Successful! 🎉</h1>
+        <p>Welcome to <strong>The Time Traveler's Code</strong>!</p>
+        <p>Your journey begins now. Click below to start exploring:</p>
+        <a href="{% url 'prologue' %}" class="btn btn-primary">Go to Prologue</a>
+    </div>
+</body>
+</html>
